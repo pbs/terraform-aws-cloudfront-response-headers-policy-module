@@ -1,6 +1,6 @@
 module github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module
 
-go 1.13
+go 1.20
 
 require (
 	github.com/gruntwork-io/terratest v0.32.2

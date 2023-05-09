@@ -1,13 +1,13 @@
-# PBS TF cloudfront response headers policy module
+# PBS TF CloudFront Response Headers Policy Module
 
 ## Installation
 
 ### Using the Repo Source
 
+Use this URL for the source of the module. See the usage examples below for more details.
+
 ```hcl
-module "cloudfront-response-headers-policy" {
-    source = "github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=x.y.z"
-}
+github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
