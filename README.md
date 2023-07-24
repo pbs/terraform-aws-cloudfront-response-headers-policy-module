@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=0.0.8
+github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "cloudfront-response-headers-policy" {
-  source = "github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=0.0.8"
+  source = "github.com/pbs/terraform-aws-cloudfront-response-headers-policy-module?ref=x.y.z"
 
   # Optional Parameters
   # cors_config = {
@@ -86,7 +86,7 @@ module "cloudfront-response-headers-policy" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.8`
+`x.y.z`
 
 Note, however that subtrees can be altered as desired within repositories.
 
@@ -109,7 +109,7 @@ Below is automatically generated documentation on this Terraform module using [t
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.8.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.9.0 |
 
 ## Modules
 
